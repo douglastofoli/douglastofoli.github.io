@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://douglastofoli.github.io/categories/</loc>
+    <loc>https://douglastofoli.github.io/about/</loc>
+    <lastmod>2022-01-24T22:38:35-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/contact/</loc>
+    <lastmod>2022-01-24T22:38:35-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/donate/</loc>
+    <lastmod>2022-01-24T22:38:35-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.github.io/</loc>
+    <lastmod>2022-01-24T22:38:35-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/tags/keyboard/</loc>
+    <lastmod>2022-01-24T22:19:28-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/tags/keychron/</loc>
+    <lastmod>2022-01-24T22:19:28-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/posts/keychron-linux/</loc>
+    <lastmod>2022-01-24T22:19:28-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/tags/linux/</loc>
+    <lastmod>2022-01-24T22:19:28-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.github.io/posts/</loc>
+    <lastmod>2022-01-24T22:19:28-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.github.io/tags/</loc>
+    <lastmod>2022-01-24T22:19:28-03:00</lastmod>
   </url>
 </urlset>
