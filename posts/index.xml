@@ -1,19 +1,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Douglas Tofoli</title>
-		<link>https://douglastofoli.github.io/posts/</link>
+		<link>https://douglastofoli.dev/posts/</link>
 		<description>Recent content in Posts on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<lastBuildDate>Mon, 24 Jan 2022 22:19:28 -0300</lastBuildDate>
-		<atom:link href="https://douglastofoli.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://douglastofoli.dev/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Keychron on Linux</title>
-			<link>https://douglastofoli.github.io/posts/keychron-linux/</link>
+			<link>https://douglastofoli.dev/posts/keychron-linux/</link>
 			<pubDate>Mon, 24 Jan 2022 22:19:28 -0300</pubDate>
 			
-			<guid>https://douglastofoli.github.io/posts/keychron-linux/</guid>
+			<guid>https://douglastofoli.dev/posts/keychron-linux/</guid>
 			<description></description>
 			<content type="html"><![CDATA[]]></content>
 		</item>

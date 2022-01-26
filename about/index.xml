@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Douglas Tofoli</title>
-    <link>https://douglastofoli.github.io/about/</link>
+    <link>https://douglastofoli.dev/about/</link>
     <description>Recent content in About on Douglas Tofoli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jan 2022 22:38:35 -0300</lastBuildDate><atom:link href="https://douglastofoli.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jan 2022 22:38:35 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
