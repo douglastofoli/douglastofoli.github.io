@@ -14,13 +14,13 @@
 			<pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
 			
 			<guid>https://douglastofoli.dev/posts/keychron-linux/</guid>
-			<description>When I bought a Keychron K2 I knew it work in Windows ans Mac, but I use Linux. But it&amp;rsquo;s just a keyboard&amp;hellip; it will work.
-Well&amp;hellip; It&amp;rsquo;s work! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn&amp;rsquo;t work perfectly. Actually the FN keys were of MacOS, not Windows.
+			<description>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.
+Well&amp;hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly. Actually the FN keys were for MacOS, not Windows.
 How I fixed:
  Use the switch on side of keyboard to change to Windows mode Hold Fn + X + L for 4 seconds to set the key row to Function mode  Type in the terminal:</description>
-			<content type="html"><![CDATA[<p>When I bought a Keychron K2 I knew it work in Windows ans Mac, but I use Linux. But it&rsquo;s just a keyboard&hellip; it will work.</p>
-<p>Well&hellip; It&rsquo;s work! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn&rsquo;t work perfectly.
-Actually the FN keys were of MacOS, not Windows.</p>
+			<content type="html"><![CDATA[<p>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.</p>
+<p>Well&hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly.
+Actually the FN keys were for MacOS, not Windows.</p>
 <p>How I fixed:</p>
 <ul>
 <li>Use the switch on side of keyboard to change to Windows mode</li>
@@ -29,7 +29,7 @@ Actually the FN keys were of MacOS, not Windows.</p>
 <p>Type in the terminal:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#ae81ff">0</span> | sudo tee /sys/module/hid_apple/parameters/fnmode
 </code></pre></div><p>When doing this your keyboard should work perfectly.</p>
-<p>It have a detail: to persist this change you need to add a module option for <code>hid_apple</code>.</p>
+<p>With a small detail: to persist this change you need to add a module option for <code>hid_apple</code></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;options hid_apple fnmode=0&#34;</span> | sudo tee -a /etc/modprobe.d/hid_apple.conf
 </code></pre></div><h3 id="important"><strong>Important!</strong></h3>
 <p>Now you need to rebuild your <code>initramfs</code> if <code>hid_apple</code> module is included.</p>
