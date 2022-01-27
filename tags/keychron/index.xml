@@ -6,14 +6,17 @@
     <description>Recent content in keychron on Douglas Tofoli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jan 2022 22:19:28 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/keychron/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/keychron/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Keychron on Linux</title>
+      <title>Keychron Linux Function Keys</title>
       <link>https://douglastofoli.dev/posts/keychron-linux/</link>
-      <pubDate>Mon, 24 Jan 2022 22:19:28 -0300</pubDate>
+      <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
       
       <guid>https://douglastofoli.dev/posts/keychron-linux/</guid>
-      <description></description>
+      <description>When I bought a Keychron K2 I knew it work in Windows ans Mac, but I use Linux. But it&amp;rsquo;s just a keyboard&amp;hellip; it will work.
+Well&amp;hellip; It&amp;rsquo;s work! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn&amp;rsquo;t work perfectly. Actually the FN keys were of MacOS, not Windows.
+How I fixed:
+ Use the switch on side of keyboard to change to Windows mode Hold Fn + X + L for 4 seconds to set the key row to Function mode  Type in the terminal:</description>
     </item>
     
   </channel>
