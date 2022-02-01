@@ -1,0 +1,71 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Douglas Tofoli</title>
+		<link>https://douglastofoli.dev/en/posts/</link>
+		<description>Recent content on Douglas Tofoli</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate>
+		<atom:link href="https://douglastofoli.dev/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Keychron Linux Function Keys</title>
+			<link>https://douglastofoli.dev/en/posts/keychron-linux/</link>
+			<pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/en/posts/keychron-linux/</guid>
+			<description>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.
+Well&amp;hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly. Actually the FN keys were for MacOS, not Windows.
+How I fixed:
+ Use the switch on side of keyboard to change to Windows mode Hold Fn + X + L for 4 seconds to set the key row to Function mode  Type in the terminal:</description>
+			<content type="html"><![CDATA[<p>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.</p>
+<p>Well&hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly.
+Actually the FN keys were for MacOS, not Windows.</p>
+<p>How I fixed:</p>
+<ul>
+<li>Use the switch on side of keyboard to change to Windows mode</li>
+<li>Hold <code>Fn + X + L</code> for 4 seconds to set the key row to <em>Function</em> mode</li>
+</ul>
+<p>Type in the terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#ae81ff">0</span> | sudo tee /sys/module/hid_apple/parameters/fnmode
+</code></pre></div><p>When doing this your keyboard should work perfectly.</p>
+<p>With a small detail: to persist this change you need to add a module option for <code>hid_apple</code></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;options hid_apple fnmode=0&#34;</span> | sudo tee -a /etc/modprobe.d/hid_apple.conf
+</code></pre></div><h3 id="important"><strong>Important!</strong></h3>
+<p>Now you need to rebuild your <code>initramfs</code> if <code>hid_apple</code> module is included.</p>
+<ul>
+<li>Ubuntu: <code>sudo update-initramfs -u</code></li>
+<li>Arch: <code>mkinitcpio -P</code></li>
+</ul>
+<p>Good! After reboot your OS don&rsquo;t will go miss this configuration and your FN keys will work as if it were Windows.</p>
+<br>
+<strong>
+  Source: <a href="https://mikeshade.com/posts/keychron-linux-function-keys/" rel="noopener" target="_blank">Mike Shade</a>
+</strong>
+
+]]></content>
+		</item>
+		
+		<item>
+			<title>Hello World!</title>
+			<link>https://douglastofoli.dev/en/posts/hello-world/</link>
+			<pubDate>Wed, 26 Jan 2022 22:07:05 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/en/posts/hello-world/</guid>
+			<description>Hello, friend. How are you? I&amp;rsquo;m fine and I expect that you are fine too.
+So&amp;hellip; this is my blog! 🎉🎉🎉
+Yep! You are in it.
+I hope that you will have good moments and nice readings here.
+About what I&amp;rsquo;ll write? Hmmm&amp;hellip; about everything, I think. You can hope to find subjects about technologies, histories from how I learn something. Example: sometimes I have a trouble in my Linux and I search all over the internet to find a solution.</description>
+			<content type="html"><![CDATA[<p>Hello, friend. How are you? I&rsquo;m fine and I expect that you are fine too.</p>
+<p><strong>So&hellip; this is my blog!</strong> 🎉🎉🎉</p>
+<p>Yep! You are in it.</p>
+<p>I hope that you will have good moments and nice readings here.</p>
+<p>About what I&rsquo;ll write? Hmmm&hellip; about everything, I think. You can hope to find subjects about technologies, histories from how I learn something.
+Example: sometimes I have a trouble in my Linux and I search all over the internet to find a solution. I want other people find the same solutions but more easily.</p>
+<p>Apresentations made. See my first post about Keychron on Linux. 👉 <a href="/en/posts/keychron-linux/" title="Keychron Linux">Click here to go to the post</a> 👈</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

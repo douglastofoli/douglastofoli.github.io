@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/en/</link>
+    <description>Recent content on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keychron Linux Function Keys</title>
+      <link>https://douglastofoli.dev/en/posts/keychron-linux/</link>
+      <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/posts/keychron-linux/</guid>
+      <description>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.
+Well&amp;hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly. Actually the FN keys were for MacOS, not Windows.
+How I fixed:
+ Use the switch on side of keyboard to change to Windows mode Hold Fn + X + L for 4 seconds to set the key row to Function mode  Type in the terminal:</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://douglastofoli.dev/en/posts/hello-world/</link>
+      <pubDate>Wed, 26 Jan 2022 22:07:05 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/posts/hello-world/</guid>
+      <description>Hello, friend. How are you? I&amp;rsquo;m fine and I expect that you are fine too.
+So&amp;hellip; this is my blog! 🎉🎉🎉
+Yep! You are in it.
+I hope that you will have good moments and nice readings here.
+About what I&amp;rsquo;ll write? Hmmm&amp;hellip; about everything, I think. You can hope to find subjects about technologies, histories from how I learn something. Example: sometimes I have a trouble in my Linux and I search all over the internet to find a solution.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/pt/</link>
+    <description>Recent content on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/pt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keychron Linux Teclas de Função</title>
+      <link>https://douglastofoli.dev/pt/posts/keychron-linux/</link>
+      <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/pt/posts/keychron-linux/</guid>
+      <description>Quando eu comprei um Keychron K2 eu sabia que ele funcionava no Windows e Mac, mas eu uso Linux. Porém é apenas um teclado&amp;hellip; ele deve funcionar.
+Bem&amp;hellip; E funcionou! Mas no meu SO Arch Linux com Gnome teve um pequeno problema. As teclas de função (fn) não funcionavam perfeitamente. Na verdade as teclas FN estavam definidas para MacOS, não Windows.
+Como eu corrigi:
+ Altere o switch lateral do teclado para o modo Windows Segure Fn + X + L por 4 segundos para ativar a linha de teclas de função  Digite no terminal:</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>https://douglastofoli.dev/pt/posts/hello-world/</link>
+      <pubDate>Wed, 26 Jan 2022 22:07:05 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/pt/posts/hello-world/</guid>
+      <description>Olá, amigo. Como você está? Eu estou bem e espero que você esteja bem também.
+Então&amp;hellip; este é o meu blog! 🎉🎉🎉
+Sim! Você está nele.
+Eu espero que você tenha bons momentos e leituras legais aqui
+Sobre o que eu irei escrever? Hmmm&amp;hellip; sobre tudo, eu acho. Você pode esperar encontrar aqui assuntos sobre tecnologia, histórias de como eu aprendi algo. Exemplo: as vezes eu tenho um problema com meu Linux e eu procuro por toda a internet para encontrar uma solução.</description>
+    </item>
+    
+  </channel>
+</rss>

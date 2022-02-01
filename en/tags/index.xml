@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/en/tags/</link>
+    <description>Recent content in Tags on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>keyboard</title>
+      <link>https://douglastofoli.dev/en/tags/keyboard/</link>
+      <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keychron</title>
+      <link>https://douglastofoli.dev/en/tags/keychron/</link>
+      <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/tags/keychron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://douglastofoli.dev/en/tags/linux/</link>
+      <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>https://douglastofoli.dev/en/tags/welcome/</link>
+      <pubDate>Wed, 26 Jan 2022 22:07:05 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/tags/welcome/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

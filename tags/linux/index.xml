@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Douglas Tofoli</title>
+    <title>linux on Douglas Tofoli - en_US</title>
     <link>https://douglastofoli.dev/tags/linux/</link>
-    <description>Recent content in linux on Douglas Tofoli</description>
+    <description>Recent content in linux on Douglas Tofoli - en_US</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
