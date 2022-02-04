@@ -5,8 +5,57 @@
 		<description>Recent content in Posts on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>pt-br</language>
-		<lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate>
+		<lastBuildDate>Thu, 03 Feb 2022 20:31:35 -0300</lastBuildDate>
 		<atom:link href="https://douglastofoli.dev/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Iniciando um novo projeto</title>
+			<link>https://douglastofoli.dev/pt/posts/starting-new-project/</link>
+			<pubDate>Thu, 03 Feb 2022 20:31:35 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/pt/posts/starting-new-project/</guid>
+			<description>O planejamento: Eu iniciei um novo projeto. Ainda sem nome, mas eu já sei sobre o que vai ser. Parece um pouco bobo mas eu quero fazer um gerenciador de dinheiro (Money Manager). Uma aplicação que você pode adicionar registros para despesas e receitas.
+Como eu iniciei? Planejamento! Eu estou planejando um banco de dados. Eu pretendo usar PostgreSQL como meu banco relacional.
+Eu estou usando dbdiagram.io para criar minhas tabelas</description>
+			<content type="html"><![CDATA[<h2 id="o-planejamento">O planejamento:</h2>
+<p>Eu iniciei um novo projeto. Ainda sem nome, mas eu já sei sobre o que vai ser.
+Parece um pouco bobo mas eu quero fazer um gerenciador de dinheiro (<em>Money Manager</em>).
+Uma aplicação que você pode adicionar registros para despesas e receitas.</p>
+<p>Como eu iniciei? Planejamento! Eu estou planejando um banco de dados. Eu pretendo usar PostgreSQL como meu banco relacional.</p>
+<p>Eu estou usando dbdiagram.io para criar minhas tabelas</p>
+<p><img src="/images/print_database.png" alt="As Tabelas"></p>
+<h5 id="hahahugoshortcode-s0-hbhb"><a href="https://dbdiagram.io" rel="noopener" target="_blank">dbdiagram.io</a></h5>
+<p>No lado esquerdo eu escrevi em código o que eu quero representar nas minhas tabelas.
+O resto da tela é uma representação gráfica das tabelas.</p>
+<h2 id="muitas-referências">Muitas referências:</h2>
+<p>Sempre que você ver &ldquo;_id&rdquo; em uma coluna, é uma referência para outra tabela. O nome que vem antes é o nome da outra tabela.</p>
+<p>A represenção em código é:</p>
+<pre tabindex="0"><code>Ref: accounts.user_id &gt; users.id
+</code></pre><p>Tabela.Chave Estrangeira <strong>&gt;</strong> Outra Tabela.Chave Primária</p>
+<h2 id="tecnologias">Tecnologias:</h2>
+<p>Eu quero usar nesse projeto:</p>
+<ul>
+<li>Elixir para backend</li>
+<li>GraphQl para API</li>
+<li>PostgreSQL para banco de dados</li>
+<li>ReactJS para frontend</li>
+<li>[&hellip;] para Mobile</li>
+</ul>
+<h2 id="bora">Bora!</h2>
+<p>Esse é o primeiro post de uma saga.
+Eu quero documentar todos os status do projeto aqui e explicar detalhes sobre cada processo executado.
+Quando o projeto alcançar maturidade irei deixar disponível no GitHub para visualização e contribuição.
+Vamos trabalhar e fazer algo diferente acontecer.</p>
+<p>Até logo!</p>
+<p><br>
+<div style="text-align: center;">
+  O link para a Parte 2 será atualizado quando estiver disponível
+</div>
+  
+<br></p>
+<a href="https://douglastofoli.dev/pt/posts/index.xml" target="_blank" title="rss" style="text-decoration: inherit; color: inherit;">Assine o RSS e não perca nenhuma postagem <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Keychron Linux Teclas de Função</title>

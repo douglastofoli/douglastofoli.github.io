@@ -32,7 +32,7 @@ The rest of the screen is a graphical representation of the tables.</p>
 <p>The representation in code is:</p>
 <pre tabindex="0"><code>Ref: accounts.user_id &gt; users.id
 </code></pre><p>Table.Foreign Key <strong>&gt;</strong> Other Table.Primary Key</p>
-<h2 id="technologies">Technologies</h2>
+<h2 id="technologies">Technologies:</h2>
 <p>I want to use in this project:</p>
 <ul>
 <li>Elixir for backend</li>
@@ -41,8 +41,8 @@ The rest of the screen is a graphical representation of the tables.</p>
 <li>ReactJS for frontend</li>
 <li>[&hellip;] for Mobile</li>
 </ul>
-<h2 id="go-up">Go Up</h2>
-<p>This is the first post of a saga. This is the first post of a saga.
+<h2 id="go-up">Go Up!</h2>
+<p>This is the first post of a saga.
 I want to documentation all status of project here and explain details about each process executed.
 When the project reaches maturity will be available in GitHub for viewing and contribution.
 Let&rsquo;s work and do something different happen.</p>
@@ -53,6 +53,7 @@ Let&rsquo;s work and do something different happen.</p>
 </div>
   
 <br></p>
+<a href="https://douglastofoli.dev/en/posts/index.xml" target="_blank" title="rss" style="text-decoration: inherit; color: inherit;">Subscribe to RSS and do not miss any post <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 ]]></content>
 		</item>
 		
