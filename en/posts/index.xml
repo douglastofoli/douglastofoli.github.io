@@ -5,8 +5,56 @@
 		<description>Recent content on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate>
+		<lastBuildDate>Thu, 03 Feb 2022 20:31:16 -0300</lastBuildDate>
 		<atom:link href="https://douglastofoli.dev/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Starting New Project [Planning]</title>
+			<link>https://douglastofoli.dev/en/posts/starting-new-project/</link>
+			<pubDate>Thu, 03 Feb 2022 20:31:16 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/en/posts/starting-new-project/</guid>
+			<description>The Planning: I started a new project. Unnamed yet, but I already know about what will be. It looks a bit silly but I want to do a money manager. An application that you can add entries for expenses and incomes.
+How I started? Planning! I am planning the database. I intend to use PostgreSQL for my database.
+I am using dbdiagram.io to create my schemas
+dbdiagram.io On the left side I wrote in code what I want to represent in my tables.</description>
+			<content type="html"><![CDATA[<h2 id="the-planning">The Planning:</h2>
+<p>I started a new project. Unnamed yet, but I already know about what will be.
+It looks a bit silly but I want to do a money manager. An application that you can add entries for expenses and incomes.</p>
+<p>How I started? Planning! I am planning the database. I intend to use PostgreSQL for my database.</p>
+<p>I am using dbdiagram.io to create my schemas</p>
+<p><img src="/images/print_database.png" alt="The Schema"></p>
+<h5 id="hahahugoshortcode-s0-hbhb"><a href="https://dbdiagram.io" rel="noopener" target="_blank">dbdiagram.io</a></h5>
+<p>On the left side I wrote in code what I want to represent in my tables.
+The rest of the screen is a graphical representation of the tables.</p>
+<h2 id="very-much-references">Very much references:</h2>
+<p>Ever you see &ldquo;_id&rdquo; on column is a reference to another table. The name that comes before is the name of the other table.</p>
+<p>The representation in code is:</p>
+<pre tabindex="0"><code>Ref: accounts.user_id &gt; users.id
+</code></pre><p>Table.Foreign Key <strong>&gt;</strong> Other Table.Primary Key</p>
+<h2 id="technologies">Technologies</h2>
+<p>I want to use in this project:</p>
+<ul>
+<li>Elixir for backend</li>
+<li>GraphQl for API</li>
+<li>PostgreSQL for database</li>
+<li>ReactJS for frontend</li>
+<li>[&hellip;] for Mobile</li>
+</ul>
+<h2 id="go-up">Go Up</h2>
+<p>This is the first post of a saga. This is the first post of a saga.
+I want to documentation all status of project here and explain details about each process executed.
+When the project reaches maturity will be available in GitHub for viewing and contribution.
+Let&rsquo;s work and do something different happen.</p>
+<p>See you!</p>
+<p><br>
+<div style="text-align: center;">
+  The link to Part 2 will be updated when available 
+</div>
+  
+<br></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Keychron Linux Function Keys</title>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://douglastofoli.dev/en/posts/</loc>
-    <lastmod>2022-01-26T22:32:24-03:00</lastmod>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -17,7 +17,7 @@
                 />
   </url><url>
     <loc>https://douglastofoli.dev/en/</loc>
-    <lastmod>2022-01-26T22:32:24-03:00</lastmod>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -27,6 +27,31 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://douglastofoli.dev/en/"
+                />
+  </url><url>
+    <loc>https://douglastofoli.dev/en/tags/elixir/</loc>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/en/tags/project/</loc>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/en/tags/react/</loc>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/en/posts/starting-new-project/</loc>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/en/tags/</loc>
+    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://douglastofoli.dev/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/"
                 />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/keyboard/</loc>
@@ -79,19 +104,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://douglastofoli.dev/en/tags/linux/"
-                />
-  </url><url>
-    <loc>https://douglastofoli.dev/en/tags/</loc>
-    <lastmod>2022-01-26T22:32:24-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://douglastofoli.dev/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://douglastofoli.dev/en/tags/"
                 />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/hello-world/</loc>

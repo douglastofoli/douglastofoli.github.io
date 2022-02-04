@@ -6,7 +6,19 @@
     <description>Recent content on Douglas Tofoli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jan 2022 22:32:24 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Feb 2022 20:31:16 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starting New Project [Planning]</title>
+      <link>https://douglastofoli.dev/en/posts/starting-new-project/</link>
+      <pubDate>Thu, 03 Feb 2022 20:31:16 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/posts/starting-new-project/</guid>
+      <description>The Planning: I started a new project. Unnamed yet, but I already know about what will be. It looks a bit silly but I want to do a money manager. An application that you can add entries for expenses and incomes.
+How I started? Planning! I am planning the database. I intend to use PostgreSQL for my database.
+I am using dbdiagram.io to create my schemas
+dbdiagram.io On the left side I wrote in code what I want to represent in my tables.</description>
+    </item>
+    
     <item>
       <title>Keychron Linux Function Keys</title>
       <link>https://douglastofoli.dev/en/posts/keychron-linux/</link>
