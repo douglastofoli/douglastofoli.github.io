@@ -5,8 +5,31 @@
 		<description>Recent content on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Thu, 03 Feb 2022 20:31:16 -0300</lastBuildDate>
+		<lastBuildDate>Fri, 04 Feb 2022 21:12:32 -0300</lastBuildDate>
 		<atom:link href="https://douglastofoli.dev/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>[Music] Enjoy the last working day of the week</title>
+			<link>https://douglastofoli.dev/en/posts/its-friday-02-04/</link>
+			<pubDate>Fri, 04 Feb 2022 21:12:32 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/en/posts/its-friday-02-04/</guid>
+			<description>Hi there!
+Today I didn&amp;rsquo;t work on any personal projects. The day was full.
+There are days when we need to stop, open a beer and relax. I recommend that you to do this.
+Enjoy a song that a frien sent me some days ago. I loved and I want to share with you.
+Have a good night and a great weekend! See you monday!
+  </description>
+			<content type="html"><![CDATA[<p>Hi there!</p>
+<p>Today I didn&rsquo;t work on any personal projects. The day was full.</p>
+<p>There are days when we need to stop, open a beer and relax. I recommend that you to do this.</p>
+<p>Enjoy a song that a frien sent me some days ago. I loved and I want to share with you.</p>
+<p>Have a good night and a great weekend! See you monday!</p>
+<div class="youtube">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
+</div>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Starting New Project [Planning]</title>

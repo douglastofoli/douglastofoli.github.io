@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://douglastofoli.dev/en/posts/</loc>
-    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <lastmod>2022-02-04T21:12:32-03:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -16,8 +16,21 @@
                 href="https://douglastofoli.dev/en/posts/"
                 />
   </url><url>
+    <loc>https://douglastofoli.dev/en/posts/its-friday-02-04/</loc>
+    <lastmod>2022-02-04T21:12:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://douglastofoli.dev/pt/posts/its-friday-02-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/its-friday-02-04/"
+                />
+  </url><url>
     <loc>https://douglastofoli.dev/en/</loc>
-    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <lastmod>2022-02-04T21:12:32-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -27,6 +40,32 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://douglastofoli.dev/en/"
+                />
+  </url><url>
+    <loc>https://douglastofoli.dev/en/tags/music/</loc>
+    <lastmod>2022-02-04T21:12:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://douglastofoli.dev/pt/tags/music/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/music/"
+                />
+  </url><url>
+    <loc>https://douglastofoli.dev/en/tags/</loc>
+    <lastmod>2022-02-04T21:12:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://douglastofoli.dev/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/"
                 />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/elixir/</loc>
@@ -79,19 +118,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://douglastofoli.dev/en/posts/starting-new-project/"
-                />
-  </url><url>
-    <loc>https://douglastofoli.dev/en/tags/</loc>
-    <lastmod>2022-02-03T20:31:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://douglastofoli.dev/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://douglastofoli.dev/en/tags/"
                 />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/keyboard/</loc>
