@@ -5,8 +5,98 @@
 		<description>Recent content in Posts on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>pt-br</language>
-		<lastBuildDate>Fri, 04 Feb 2022 21:12:32 -0300</lastBuildDate>
+		<lastBuildDate>Mon, 14 Feb 2022 21:17:10 -0300</lastBuildDate>
 		<atom:link href="https://douglastofoli.dev/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades</title>
+			<link>https://douglastofoli.dev/pt/posts/custom-terminal/</link>
+			<pubDate>Mon, 14 Feb 2022 21:17:10 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/pt/posts/custom-terminal/</guid>
+			<description>Deixando seu terminal melhor para o trabalho Olá. Vamos configurar um terminal bonito e produtivo. Esse não é um tutorial bem detalhado. Eu vou deixar aqui links e alguns comandos de como eu configurei meu terminal. É fácil, basta seguir o passo a passo na ordem.
+Terminator Passo a passo 1. Instale Zsh Você precisa install um shell diferente. Mas calma. Nada vai mudar em relação ao bash.
+Acessa esta página.</description>
+			<content type="html"><![CDATA[<h3 id="deixando-seu-terminal-melhor-para-o-trabalho">Deixando seu terminal melhor para o trabalho</h3>
+<p>Olá. Vamos configurar um terminal bonito e produtivo. Esse não é um tutorial bem detalhado. Eu vou deixar aqui links e alguns comandos de como eu configurei meu terminal. É fácil, basta seguir o passo a passo na ordem.</p>
+<p><img src="/images/terminator.png" alt="Terminator"></p>
+<h5 id="hahahugoshortcode-s0-hbhb"><a href="https://terminator-gtk3.readthedocs.io/en/latest/" rel="noopener" target="_blank">Terminator</a></h5>
+<br>
+<h1 id="passo-a-passo">Passo a passo</h1>
+<h2 id="1-instale-zsh">1. Instale Zsh</h2>
+<p>Você precisa install um shell diferente. Mas calma. Nada vai mudar em relação ao bash.</p>
+<p><a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH" rel="noopener" target="_blank">Acessa esta página.</a> Isso vai ajudar você a instalar o Zsh de acordo com sua distro Linux.</p>
+<br>
+<h2 id="2-instale-oh-my-zsh">2. Instale Oh My Zsh</h2>
+<p>Para o próximo passo install o Oh My Zsh. Ele vai permitir mais customizações para o Zsh.</p>
+<p>Execute no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><br>
+<h2 id="3-tema-dracula">3. Tema Dracula</h2>
+<p>Eu escolhi o tema Dracula como meu dark theme. Você pode escolher um tema de sua preferência.
+<br>
+<a href="https://draculatheme.com/terminator" rel="noopener" target="_blank">Tema Dracula para Terminator</a></p>
+<br>
+<h2 id="4-tema-shell-spaceship">4. Tema shell Spaceship</h2>
+<p>Spaceship é fácil de instalar. Apenas execute no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/spaceship-prompt/spaceship-prompt.git <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt&#34;</span> --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</code></pre></div><p>E crie um link simbólico para seu diretório de temas padrão:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ln -s <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt/spaceship.zsh-theme&#34;</span> <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship.zsh-theme&#34;</span>
+</code></pre></div><p>Ative o Spaceship como tema principal. Edite <code>~/.zshrc</code> e encontre por <strong>ZSH_THEME</strong></p>
+<p><code>ZSH_THEME=&quot;spaceship&quot;</code></p>
+<br>
+<p>Para mais sobre Spaceship: <a href="" rel="noopener" target="_blank">GitHub - Spaceship</a></p>
+<br>
+<h2 id="5-configurações-adicionais">5. Configurações adicionais</h2>
+<p>Ao final do arquivo <code>~/.zshrc</code> adicione o conteúdo abaixo:</p>
+<pre tabindex="0"><code>SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  node
+  rust
+  docker
+  hg            # Mercurial section (hg_branch  + hg_status)
+  exec_time     # Execution time
+  line_sep      # Line break
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+SPACESHIP_USER_SHOW=always
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_CHAR_SYMBOL=&quot;❯&quot;
+SPACESHIP_CHAR_SUFFIX=&quot; &quot;
+
+SPACESHIP_RUST_SYMBOL=&quot;🦀  &quot;
+SPACESHIP_RUST_COLOR=red
+</code></pre><p>Você pode personalizar tudo! Veja a documentação no passo anterior.</p>
+<br>
+<h2 id="6-plugins">6. Plugins</h2>
+<p>Finalmente nós vamos instalar alguns plugins. Para o gerenciador de plugins iremos usar um fork do Zinit. Para instalar execute no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://git.io/zinit-install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>Com a instalação completa, edite <code>~/.zshrc</code> e adicione o conteúdo abaixo no final do arquivo:</p>
+<pre tabindex="0"><code>zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
+</code></pre><p>Salve o arquivo, feche o terminal e abra novamente. Isso irá instalar três plugins.
+Eles fazem:</p>
+<ul>
+<li>destaque de cor</li>
+<li>sugestão de comandos</li>
+<li>completa comandos</li>
+</ul>
+<br>
+<h3 id="7-terminal-vscode-bonus">7. Terminal VSCode [Bonus]</h3>
+<p>Para ativar e usar esse novo terminal no VSCode edite seu arquivo settings.json e adicione esta instrução:</p>
+<p><code>&quot;terminal.integrated.defaultProfile.linux&quot;: &quot;zsh&quot;</code></p>
+<br>
+<h3 id="e-fim">E fim</h3>
+<p>Curtiu esse terminal? Limpo, rápido e produtivo. Você pode usar a área de comentários para sugerir dicas e screenshots do seu novo terminal.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>[Música] Aproveite o último dia de trabalho da semana</title>
