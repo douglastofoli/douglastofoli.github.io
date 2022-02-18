@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://douglastofoli.dev/en/posts/</loc>
-    <lastmod>2022-02-14T21:17:06-03:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://douglastofoli.dev/pt/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://douglastofoli.dev/en/posts/"
-                />
-  </url><url>
     <loc>https://douglastofoli.dev/en/</loc>
     <lastmod>2022-02-14T21:17:06-03:00</lastmod>
     <xhtml:link
@@ -40,6 +26,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://douglastofoli.dev/en/tags/linux/"
+                />
+  </url><url>
+    <loc>https://douglastofoli.dev/en/posts/</loc>
+    <lastmod>2022-02-14T21:17:06-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://douglastofoli.dev/pt/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/"
                 />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/</loc>
@@ -236,9 +235,6 @@
                 hreflang="en"
                 href="https://douglastofoli.dev/en/about/"
                 />
-  </url><url>
-    <loc>https://douglastofoli.dev/en/contact/</loc>
-    <lastmod>2022-01-24T22:38:35-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.dev/en/donate/</loc>
     <lastmod>2022-01-24T22:38:35-03:00</lastmod>
