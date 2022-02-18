@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#383a59">
+	<meta name="msapplication-TileColor" content="#383a59">
+<meta itemprop="name" content="Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades">
+<meta itemprop="description" content="Deixando seu terminal melhor para o trabalho Olá. Vamos configurar um terminal bonito e produtivo. Esse não é um tutorial bem detalhado. Eu vou deixar aqui links e alguns comandos de como eu configurei meu terminal. É fácil, basta seguir o passo a passo na ordem.
+Terminator Passo a passo 1. Instale Zsh Você precisa install um shell diferente. Mas calma. Nada vai mudar em relação ao bash.
+Acessa esta página."><meta itemprop="datePublished" content="2022-02-14T21:17:10-03:00" />
+<meta itemprop="dateModified" content="2022-02-14T21:17:10-03:00" />
+<meta itemprop="wordCount" content="405">
+<meta itemprop="keywords" content="terminal,linux," /><meta property="og:title" content="Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades" />
+<meta property="og:description" content="Deixando seu terminal melhor para o trabalho Olá. Vamos configurar um terminal bonito e produtivo. Esse não é um tutorial bem detalhado. Eu vou deixar aqui links e alguns comandos de como eu configurei meu terminal. É fácil, basta seguir o passo a passo na ordem.
+Terminator Passo a passo 1. Instale Zsh Você precisa install um shell diferente. Mas calma. Nada vai mudar em relação ao bash.
+Acessa esta página." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://douglastofoli.dev/pt/posts/custom-terminal/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-02-14T21:17:10-03:00" />
+<meta property="article:modified_time" content="2022-02-14T21:17:10-03:00" /><meta property="og:site_name" content="Douglas Tofoli" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades"/>
+<meta name="twitter:description" content="Deixando seu terminal melhor para o trabalho Olá. Vamos configurar um terminal bonito e produtivo. Esse não é um tutorial bem detalhado. Eu vou deixar aqui links e alguns comandos de como eu configurei meu terminal. É fácil, basta seguir o passo a passo na ordem.
+Terminator Passo a passo 1. Instale Zsh Você precisa install um shell diferente. Mas calma. Nada vai mudar em relação ao bash.
+Acessa esta página."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades</title>
+	<link rel="stylesheet" href="https://douglastofoli.dev/css/style.min.d8f83f739329896e79f954c10c971e71d891bbc932d2e47f5b8f4360daecf476.css" integrity="sha256-2Pg/c5MpiW55+VTBDJcecdiRu8ky0uR/W49DYNrs9HY=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+<header id="site-header" class="animated slideInUp">
+	<div class="hdr-wrapper section-inner">
+		<div class="hdr-left">
+			<div class="site-branding">
+				<a href="https://douglastofoli.dev">Douglas Tofoli</a>
+			</div>
+			<nav class="site-nav hide-in-mobile">
+				
+				<a href="https://douglastofoli.dev/pt/posts">Publicações</a>
+				<a href="https://douglastofoli.dev/pt/about">Sobre</a>
+
+			</nav>
+		</div>
+		<div class="hdr-right hdr-icons">
+			<span class="hdr-social hide-in-mobile"><a href="https://twitter.com/douglastofoli" target="_blank" rel="noopener me" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a><a href="https://www.instagram.com/douglastofoli/" target="_blank" rel="noopener me" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg></a><a href="https://github.com/douglastofoli" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></span><button id="menu-btn" class="hdr-btn" title=""><svg xmlns="http://www.w3.org/2000/svg" width="24"
+					height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+					stroke-linejoin="round" class="feather feather-menu">
+					<line x1="3" y1="12" x2="21" y2="12"></line>
+					<line x1="3" y1="6" x2="21" y2="6"></line>
+					<line x1="3" y1="18" x2="21" y2="18"></line>
+				</svg></button>
+		</div>
+	</div>
+</header>
+
+
+<nav class="language-switcher">
+  <ul>
+    
+    
+    <li><span>Português</span>
+      
+      
+    
+      
+      <ul class="dropdown__menu">
+        
+        <li><a title="English" href="https://douglastofoli.dev/en/about/">English</a></li>
+      </ul>
+        
+    </li>
+  </ul>
+</nav>
+
+
+
+
+<div id="mobile-menu" class="animated fast">
+	<ul>
+		<li><a href="https://douglastofoli.dev/pt/posts">Publicações</a></li>
+		<li><a href="https://douglastofoli.dev/pt/about">Sobre</a></li>
+	</ul>
+</div>
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Feb 14, 2022</span></div>
+				<h1>Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades</h1>
+			</header>
+			<div class="content">
+				<h3 id="deixando-seu-terminal-melhor-para-o-trabalho">Deixando seu terminal melhor para o trabalho<a href="#deixando-seu-terminal-melhor-para-o-trabalho" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Olá. Vamos configurar um terminal bonito e produtivo. Esse não é um tutorial bem detalhado. Eu vou deixar aqui links e alguns comandos de como eu configurei meu terminal. É fácil, basta seguir o passo a passo na ordem.</p>
+<p><img src="/images/terminator.png" alt="Terminator"></p>
+<h5 id="hahahugoshortcode-s0-hbhb"><a href="https://terminator-gtk3.readthedocs.io/en/latest/" rel="noopener" target="_blank">Terminator</a><a href="#hahahugoshortcode-s0-hbhb" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h5>
+<br>
+<h1 id="passo-a-passo">Passo a passo<a href="#passo-a-passo" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<h2 id="1-instale-zsh">1. Instale Zsh<a href="#1-instale-zsh" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Você precisa install um shell diferente. Mas calma. Nada vai mudar em relação ao bash.</p>
+<p><a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH" rel="noopener" target="_blank">Acessa esta página.</a> Isso vai ajudar você a instalar o Zsh de acordo com sua distro Linux.</p>
+<br>
+<h2 id="2-instale-oh-my-zsh">2. Instale Oh My Zsh<a href="#2-instale-oh-my-zsh" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Para o próximo passo install o Oh My Zsh. Ele vai permitir mais customizações para o Zsh.</p>
+<p>Execute no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><br>
+<h2 id="3-tema-dracula">3. Tema Dracula<a href="#3-tema-dracula" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Eu escolhi o tema Dracula como meu dark theme. Você pode escolher um tema de sua preferência.
+<br>
+<a href="https://draculatheme.com/terminator" rel="noopener" target="_blank">Tema Dracula para Terminator</a></p>
+<br>
+<h2 id="4-tema-shell-spaceship">4. Tema shell Spaceship<a href="#4-tema-shell-spaceship" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Spaceship é fácil de instalar. Apenas execute no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/spaceship-prompt/spaceship-prompt.git <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt&#34;</span> --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</code></pre></div><p>E crie um link simbólico para seu diretório de temas padrão:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ln -s <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt/spaceship.zsh-theme&#34;</span> <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship.zsh-theme&#34;</span>
+</code></pre></div><p>Ative o Spaceship como tema principal. Edite <code>~/.zshrc</code> e encontre por <strong>ZSH_THEME</strong></p>
+<p><code>ZSH_THEME=&quot;spaceship&quot;</code></p>
+<br>
+<p>Para mais sobre Spaceship: <a href="" rel="noopener" target="_blank">GitHub - Spaceship</a></p>
+<br>
+<h2 id="5-configurações-adicionais">5. Configurações adicionais<a href="#5-configurações-adicionais" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Ao final do arquivo <code>~/.zshrc</code> adicione o conteúdo abaixo:</p>
+<pre tabindex="0"><code>SPACESHIP_PROMPT_ORDER=(
+  user          # Username section
+  dir           # Current directory section
+  host          # Hostname section
+  git           # Git section (git_branch + git_status)
+  node
+  rust
+  docker
+  hg            # Mercurial section (hg_branch  + hg_status)
+  exec_time     # Execution time
+  line_sep      # Line break
+  vi_mode       # Vi-mode indicator
+  jobs          # Background jobs indicator
+  exit_code     # Exit code section
+  char          # Prompt character
+)
+SPACESHIP_USER_SHOW=always
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_CHAR_SYMBOL=&quot;❯&quot;
+SPACESHIP_CHAR_SUFFIX=&quot; &quot;
+
+SPACESHIP_RUST_SYMBOL=&quot;🦀  &quot;
+SPACESHIP_RUST_COLOR=red
+</code></pre><p>Você pode personalizar tudo! Veja a documentação no passo anterior.</p>
+<br>
+<h2 id="6-plugins">6. Plugins<a href="#6-plugins" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Finalmente nós vamos instalar alguns plugins. Para o gerenciador de plugins iremos usar um fork do Zinit. Para instalar execute no terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://git.io/zinit-install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>Com a instalação completa, edite <code>~/.zshrc</code> e adicione o conteúdo abaixo no final do arquivo:</p>
+<pre tabindex="0"><code>zinit light zdharma-continuum/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
+</code></pre><p>Salve o arquivo, feche o terminal e abra novamente. Isso irá instalar três plugins.
+Eles fazem:</p>
+<ul>
+<li>destaque de cor</li>
+<li>sugestão de comandos</li>
+<li>completa comandos</li>
+</ul>
+<br>
+<h3 id="7-terminal-vscode-bonus">7. Terminal VSCode [Bonus]<a href="#7-terminal-vscode-bonus" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Para ativar e usar esse novo terminal no VSCode edite seu arquivo settings.json e adicione esta instrução:</p>
+<p><code>&quot;terminal.integrated.defaultProfile.linux&quot;: &quot;zsh&quot;</code></p>
+<br>
+<h3 id="e-fim">E fim<a href="#e-fim" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Curtiu esse terminal? Limpo, rápido e produtivo. Você pode usar a área de comentários para sugerir dicas e screenshots do seu novo terminal.</p>
+
+			</div>
+
+<div class="related-posts thin">
+	<h2>Veja também</h2>
+	<ul>
+	
+	<li><a href="/pt/posts/keychron-linux/">Keychron Linux Teclas de Função</a></li>
+	
+	</ul>
+</div>
+
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://douglastofoli.dev/pt/tags/terminal">terminal</a></span><span class="tag"><a href="https://douglastofoli.dev/pt/tags/linux">linux</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>405 Palavras</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2022-02-14 21:17 -0300</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://douglastofoli.dev/pt/posts/its-friday-02-04/">
+				<span class="post-nav-label">Mais antigo&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>[Música] Aproveite o último dia de trabalho da semana</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "douglastofoli" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a></div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>&copy; 2022 <a href="https://douglastofoli.dev">Douglas Tofoli</a> &#183; <a href="/pt/donate" rel="noopener">Doar ❤️</a> &#183; <a href="https://douglastofoli.dev/pt/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></p>
+</footer>
+
+
+
+	<script src="https://douglastofoli.dev/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T8GY8ZZFGY"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-T8GY8ZZFGY', { 'anonymize_ip': false });
+}
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-T8GY8ZZFGY', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terminal on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/en/tags/terminal/</link>
+    <description>Recent content in terminal on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Feb 2022 21:17:06 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/en/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your terminal with Oh My Zsh, Spaceship, Dracula and more functionalities</title>
+      <link>https://douglastofoli.dev/en/posts/custom-terminal/</link>
+      <pubDate>Mon, 14 Feb 2022 21:17:06 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/en/posts/custom-terminal/</guid>
+      <description>Letting your terminal better to work Hello there. Let&amp;rsquo;s configuration a beauty and productive terminal. This is not a detailed tutorial. I will leave here links and some commands on how I set up my terminal. It&amp;rsquo;s easy, just follow in order
+Terminator Step by step 1. Install Zsh You need to install a different shell. But calm. Nothing will change in relation to bash
+Access this page. This will help you with installation for your Linux distro.</description>
+    </item>
+    
+  </channel>
+</rss>
