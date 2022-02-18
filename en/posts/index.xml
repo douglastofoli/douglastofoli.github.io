@@ -5,8 +5,29 @@
 		<description>Recent content in Posts on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Mon, 14 Feb 2022 21:17:06 -0300</lastBuildDate>
+		<lastBuildDate>Fri, 18 Feb 2022 19:45:20 -0300</lastBuildDate>
 		<atom:link href="https://douglastofoli.dev/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>We arrived on one more Friday</title>
+			<link>https://douglastofoli.dev/en/posts/its-friday-02-18/</link>
+			<pubDate>Fri, 18 Feb 2022 19:45:20 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/en/posts/its-friday-02-18/</guid>
+			<description>Hi there!
+I know I&amp;rsquo;m not posting with a high frequency but I want that all fridays has a music to reflect about the week.
+And serious, I am not in love haha. I am sure that you&amp;rsquo;ll like this music.
+Have a great weekend. See you.
+  </description>
+			<content type="html"><![CDATA[<p>Hi there!</p>
+<p>I know I&rsquo;m not posting with a high frequency but I want that all fridays has a music to reflect about the week.</p>
+<p>And serious, I am not in love haha. I am sure that you&rsquo;ll like this music.</p>
+<p>Have a great weekend. See you.</p>
+<div class="youtube">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
+</div>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Your terminal with Oh My Zsh, Spaceship, Dracula and more functionalities</title>

@@ -5,8 +5,29 @@
 		<description>Recent content in Publicações on Douglas Tofoli</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>pt-br</language>
-		<lastBuildDate>Mon, 14 Feb 2022 21:17:10 -0300</lastBuildDate>
+		<lastBuildDate>Fri, 18 Feb 2022 19:45:20 -0300</lastBuildDate>
 		<atom:link href="https://douglastofoli.dev/pt/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>E nós chegamos em mais uma sexta-feira</title>
+			<link>https://douglastofoli.dev/pt/posts/its-friday-02-18/</link>
+			<pubDate>Fri, 18 Feb 2022 19:45:20 -0300</pubDate>
+			
+			<guid>https://douglastofoli.dev/pt/posts/its-friday-02-18/</guid>
+			<description>Olá!
+Eu sei que não estou postando com muita frequência, mas eu quero que todas as sextas-feiras tenha uma música para refletir sobre a semana.
+E sério, eu não estou apaixonado haha. Eu tenho certeza que você vai curtir esta música.
+Tenha um ótimo fim de semana. Até mais.
+  </description>
+			<content type="html"><![CDATA[<p>Olá!</p>
+<p>Eu sei que não estou postando com muita frequência, mas eu quero que todas as sextas-feiras tenha uma música para refletir sobre a semana.</p>
+<p>E sério, eu não estou apaixonado haha. Eu tenho certeza que você vai curtir esta música.</p>
+<p>Tenha um ótimo fim de semana. Até mais.</p>
+<div class="youtube">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
+</div>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Seu terminal com Oh My Zsh, Spaceship, Dracula e mais funcionalidades</title>
