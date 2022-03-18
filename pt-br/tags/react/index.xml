@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/pt-br/tags/react/</link>
+    <description>Recent content in react on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Thu, 03 Feb 2022 20:31:35 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/pt-br/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iniciando um novo projeto [planejamento]</title>
+      <link>https://douglastofoli.dev/pt-br/posts/starting-new-project/</link>
+      <pubDate>Thu, 03 Feb 2022 20:31:35 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/pt-br/posts/starting-new-project/</guid>
+      <description>O planejamento: Eu iniciei um novo projeto. Ainda sem nome, mas eu já sei sobre o que vai ser. Parece um pouco bobo mas eu quero fazer um gerenciador de dinheiro (Money Manager). Uma aplicação que você pode adicionar registros para despesas e receitas.
+Como eu iniciei? Planejamento! Eu estou planejando um banco de dados. Eu pretendo usar PostgreSQL como meu banco relacional.
+Eu estou usando dbdiagram.io para criar minhas tabelas</description>
+    </item>
+    
+  </channel>
+</rss>

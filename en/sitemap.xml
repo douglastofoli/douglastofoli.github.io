@@ -17,9 +17,29 @@
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/music/</loc>
     <lastmod>2022-02-18T19:45:20-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/music/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/music/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/</loc>
     <lastmod>2022-02-18T19:45:20-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/</loc>
     <lastmod>2022-02-18T19:45:20-03:00</lastmod>
@@ -36,48 +56,198 @@
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/its-friday-02-18/</loc>
     <lastmod>2022-02-18T19:45:20-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/its-friday-02-18/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/its-friday-02-18/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/linux/</loc>
     <lastmod>2022-02-14T21:17:06-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/linux/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/terminal/</loc>
     <lastmod>2022-02-14T21:17:06-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/terminal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/terminal/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/custom-terminal/</loc>
     <lastmod>2022-02-14T21:17:06-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/custom-terminal/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/custom-terminal/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/its-friday-02-04/</loc>
     <lastmod>2022-02-04T21:12:32-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/its-friday-02-04/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/its-friday-02-04/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/elixir/</loc>
     <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/elixir/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/elixir/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/project/</loc>
     <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/project/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/react/</loc>
     <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/react/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/react/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/starting-new-project/</loc>
     <lastmod>2022-02-03T20:31:16-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/starting-new-project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/starting-new-project/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/keyboard/</loc>
     <lastmod>2022-01-26T22:32:24-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/keyboard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/keyboard/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/tags/keychron/</loc>
     <lastmod>2022-01-26T22:32:24-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/tags/keychron/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/tags/keychron/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/keychron-linux/</loc>
     <lastmod>2022-01-26T22:32:24-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/keychron-linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/keychron-linux/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/posts/hello-world/</loc>
     <lastmod>2022-01-26T22:07:05-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/posts/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/posts/hello-world/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/about/</loc>
     <lastmod>2022-01-24T22:38:35-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/about/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/donate/</loc>
     <lastmod>2022-01-24T22:38:35-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://douglastofoli.dev/pt-br/donate/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://douglastofoli.dev/en/donate/"
+                />
   </url><url>
     <loc>https://douglastofoli.dev/en/categories/</loc>
     <xhtml:link
