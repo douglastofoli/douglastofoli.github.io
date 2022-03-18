@@ -1,44 +1,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Posts on Douglas Tofoli</title>
-		<link>https://douglastofoli.dev/en/posts/</link>
-		<description>Recent content in Posts on Douglas Tofoli</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<lastBuildDate>Fri, 18 Feb 2022 19:45:20 -0300</lastBuildDate>
-		<atom:link href="https://douglastofoli.dev/en/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>We arrived on one more Friday</title>
-			<link>https://douglastofoli.dev/en/posts/its-friday-02-18/</link>
-			<pubDate>Fri, 18 Feb 2022 19:45:20 -0300</pubDate>
-			
-			<guid>https://douglastofoli.dev/en/posts/its-friday-02-18/</guid>
-			<description>Hi there!
+    <channel>
+        <title>Posts on Douglas Tofoli</title>
+        <link>https://douglastofoli.dev/en/posts/</link>
+        <description>Recent content in Posts on Douglas Tofoli</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 18 Feb 2022 19:45:20 -0300</lastBuildDate>
+        <atom:link href="https://douglastofoli.dev/en/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>We arrived on one more Friday</title>
+            <link>https://douglastofoli.dev/en/posts/its-friday-02-18/</link>
+            <pubDate>Fri, 18 Feb 2022 19:45:20 -0300</pubDate>
+            
+            <guid>https://douglastofoli.dev/en/posts/its-friday-02-18/</guid>
+            <description>Hi there!
 I know I&amp;rsquo;m not posting with a high frequency but I want that all fridays has a music to reflect about the week.
 And serious, I am not in love haha. I am sure that you&amp;rsquo;ll like this music.
 Have a great weekend. See you.
   </description>
-			<content type="html"><![CDATA[<p>Hi there!</p>
+            <content type="html"><![CDATA[<p>Hi there!</p>
 <p>I know I&rsquo;m not posting with a high frequency but I want that all fridays has a music to reflect about the week.</p>
 <p>And serious, I am not in love haha. I am sure that you&rsquo;ll like this music.</p>
 <p>Have a great weekend. See you.</p>
-<div class="youtube">
-  <iframe class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
+<div class="youtube" style="text-align: center;">
+  <iframe height="416" width="694" class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
 </div>
 ]]></content>
-		</item>
-		
-		<item>
-			<title>Your terminal with Oh My Zsh, Spaceship, Dracula and more functionalities</title>
-			<link>https://douglastofoli.dev/en/posts/custom-terminal/</link>
-			<pubDate>Mon, 14 Feb 2022 21:17:06 -0300</pubDate>
-			
-			<guid>https://douglastofoli.dev/en/posts/custom-terminal/</guid>
-			<description>Letting your terminal better to work Hello there. Let&amp;rsquo;s configuration a beauty and productive terminal. This is not a detailed tutorial. I will leave here links and some commands on how I set up my terminal. It&amp;rsquo;s easy, just follow in order
+        </item>
+        
+        <item>
+            <title>Your terminal with Oh My Zsh, Spaceship, Dracula and more functionalities</title>
+            <link>https://douglastofoli.dev/en/posts/custom-terminal/</link>
+            <pubDate>Mon, 14 Feb 2022 21:17:06 -0300</pubDate>
+            
+            <guid>https://douglastofoli.dev/en/posts/custom-terminal/</guid>
+            <description>Letting your terminal better to work Hello there. Let&amp;rsquo;s configuration a beauty and productive terminal. This is not a detailed tutorial. I will leave here links and some commands on how I set up my terminal. It&amp;rsquo;s easy, just follow in order
 Terminator Step by step 1. Install Zsh You need to install a different shell. But calm. Nothing will change in relation to bash
 Access this page. This will help you with installation for your Linux distro.</description>
-			<content type="html"><![CDATA[<h3 id="letting-your-terminal-better-to-work">Letting your terminal better to work</h3>
+            <content type="html"><![CDATA[<h3 id="letting-your-terminal-better-to-work">Letting your terminal better to work</h3>
 <p>Hello there. Let&rsquo;s configuration a beauty and productive terminal. This is not a detailed tutorial. I will leave here links and some commands on how I set up my terminal. It&rsquo;s easy, just follow in order</p>
 <p><img src="/images/terminator.png" alt="Terminator"></p>
 <h5 id="hahahugoshortcode-s0-hbhb"><a href="https://terminator-gtk3.readthedocs.io/en/latest/" rel="noopener" target="_blank">Terminator</a></h5>
@@ -51,8 +51,8 @@ Access this page. This will help you with installation for your Linux distro.</d
 <h2 id="2-install-oh-my-zsh">2. Install Oh My Zsh</h2>
 <p>To next step install Oh My Zsh. It will let the Zsh more customizable.</p>
 <p>Run on terminal:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</code></pre></div><br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><br>
 <h2 id="3-dracula-theme">3. Dracula Theme</h2>
 <p>I did choose Dracula for my dark theme. You can choose a theme of your preference.
 <br>
@@ -60,10 +60,10 @@ Access this page. This will help you with installation for your Linux distro.</d
 <br>
 <h2 id="4-theme-shell-spaceship">4. Theme shell Spaceship</h2>
 <p>Spaceship is easy to install. Just run on terminal:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/spaceship-prompt/spaceship-prompt.git <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt&#34;</span> --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
-</code></pre></div><p>And create symlink to your custom theme directory:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ln -s <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt/spaceship.zsh-theme&#34;</span> <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship.zsh-theme&#34;</span>
-</code></pre></div><p>Active Spaceship to your major theme. Edit <code>~/.zshrc</code> and find <strong>ZSH_THEME</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/spaceship-prompt/spaceship-prompt.git <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt&#34;</span> --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>
+</span></span></code></pre></div><p>And create symlink to your custom theme directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ln -s <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship-prompt/spaceship.zsh-theme&#34;</span> <span style="color:#e6db74">&#34;</span>$ZSH_CUSTOM<span style="color:#e6db74">/themes/spaceship.zsh-theme&#34;</span>
+</span></span></code></pre></div><p>Active Spaceship to your major theme. Edit <code>~/.zshrc</code> and find <strong>ZSH_THEME</strong></p>
 <p><code>ZSH_THEME=&quot;spaceship&quot;</code></p>
 <br>
 <p>For more about Spaceship: <a href="" rel="noopener" target="_blank">GitHub - Spaceship</a></p>
@@ -88,17 +88,17 @@ Access this page. This will help you with installation for your Linux distro.</d
 )
 SPACESHIP_USER_SHOW=always
 SPACESHIP_PROMPT_ADD_NEWLINE=false
-SPACESHIP_CHAR_SYMBOL=&quot;❯&quot;
-SPACESHIP_CHAR_SUFFIX=&quot; &quot;
+SPACESHIP_CHAR_SYMBOL=&#34;❯&#34;
+SPACESHIP_CHAR_SUFFIX=&#34; &#34;
 
-SPACESHIP_RUST_SYMBOL=&quot;🦀  &quot;
+SPACESHIP_RUST_SYMBOL=&#34;🦀  &#34;
 SPACESHIP_RUST_COLOR=red
 </code></pre><p>You can customize everything! See the documentation in the previous step.</p>
 <br>
 <h2 id="6-plugins">6. Plugins</h2>
 <p>Finally we go to install some plugins. To manage the plugins we will use a Zinit fork. To install run on terminal:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://git.io/zinit-install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
-</code></pre></div><p>With the installation completed, edit <code>~/.zshrc</code> and add the content below in end of file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sh -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://git.io/zinit-install<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>With the installation completed, edit <code>~/.zshrc</code> and add the content below in end of file:</p>
 <pre tabindex="0"><code>zinit light zdharma-continuum/fast-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
@@ -117,42 +117,42 @@ That do:</p>
 <h3 id="the-end">The end</h3>
 <p>Liked this terminal? Clean, fast and productive. You can use the comments area to suggest tips and screenshots of your terminal.</p>
 ]]></content>
-		</item>
-		
-		<item>
-			<title>[Music] Enjoy the last working day of the week</title>
-			<link>https://douglastofoli.dev/en/posts/its-friday-02-04/</link>
-			<pubDate>Fri, 04 Feb 2022 21:12:32 -0300</pubDate>
-			
-			<guid>https://douglastofoli.dev/en/posts/its-friday-02-04/</guid>
-			<description>Hi there!
+        </item>
+        
+        <item>
+            <title>[Music] Enjoy the last working day of the week</title>
+            <link>https://douglastofoli.dev/en/posts/its-friday-02-04/</link>
+            <pubDate>Fri, 04 Feb 2022 21:12:32 -0300</pubDate>
+            
+            <guid>https://douglastofoli.dev/en/posts/its-friday-02-04/</guid>
+            <description>Hi there!
 Today I didn&amp;rsquo;t work on any personal projects. The day was full.
 There are days when we need to stop, open a beer and relax. I recommend that you to do this.
 Enjoy a song that a frien sent me some days ago. I loved and I want to share with you.
 Have a good night and a great weekend! See you monday!
   </description>
-			<content type="html"><![CDATA[<p>Hi there!</p>
+            <content type="html"><![CDATA[<p>Hi there!</p>
 <p>Today I didn&rsquo;t work on any personal projects. The day was full.</p>
 <p>There are days when we need to stop, open a beer and relax. I recommend that you to do this.</p>
 <p>Enjoy a song that a frien sent me some days ago. I loved and I want to share with you.</p>
 <p>Have a good night and a great weekend! See you monday!</p>
-<div class="youtube">
-  <iframe class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
+<div class="youtube" style="text-align: center;">
+  <iframe height="416" width="694" class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
 </div>
 ]]></content>
-		</item>
-		
-		<item>
-			<title>Starting New Project [Planning]</title>
-			<link>https://douglastofoli.dev/en/posts/starting-new-project/</link>
-			<pubDate>Thu, 03 Feb 2022 20:31:16 -0300</pubDate>
-			
-			<guid>https://douglastofoli.dev/en/posts/starting-new-project/</guid>
-			<description>The Planning: I started a new project. Unnamed yet, but I already know about what will be. It looks a bit silly but I want to do a money manager. An application that you can add entries for expenses and incomes.
+        </item>
+        
+        <item>
+            <title>Starting New Project [Planning]</title>
+            <link>https://douglastofoli.dev/en/posts/starting-new-project/</link>
+            <pubDate>Thu, 03 Feb 2022 20:31:16 -0300</pubDate>
+            
+            <guid>https://douglastofoli.dev/en/posts/starting-new-project/</guid>
+            <description>The Planning: I started a new project. Unnamed yet, but I already know about what will be. It looks a bit silly but I want to do a money manager. An application that you can add entries for expenses and incomes.
 How I started? Planning! I am planning the database. I intend to use PostgreSQL for my database.
 I am using dbdiagram.io to create my schemas
 dbdiagram.io On the left side I wrote in code what I want to represent in my tables.</description>
-			<content type="html"><![CDATA[<h2 id="the-planning">The Planning:</h2>
+            <content type="html"><![CDATA[<h2 id="the-planning">The Planning:</h2>
 <p>I started a new project. Unnamed yet, but I already know about what will be.
 It looks a bit silly but I want to do a money manager. An application that you can add entries for expenses and incomes.</p>
 <p>How I started? Planning! I am planning the database. I intend to use PostgreSQL for my database.</p>
@@ -189,19 +189,19 @@ Let&rsquo;s work and do something different happen.</p>
 <br></p>
 <a href="https://douglastofoli.dev/en/posts/index.xml" target="_blank" title="rss" style="text-decoration: inherit; color: inherit;">Subscribe to RSS and do not miss any post <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 ]]></content>
-		</item>
-		
-		<item>
-			<title>Keychron Linux Function Keys</title>
-			<link>https://douglastofoli.dev/en/posts/keychron-linux/</link>
-			<pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
-			
-			<guid>https://douglastofoli.dev/en/posts/keychron-linux/</guid>
-			<description>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.
+        </item>
+        
+        <item>
+            <title>Keychron Linux Function Keys</title>
+            <link>https://douglastofoli.dev/en/posts/keychron-linux/</link>
+            <pubDate>Wed, 26 Jan 2022 22:32:24 -0300</pubDate>
+            
+            <guid>https://douglastofoli.dev/en/posts/keychron-linux/</guid>
+            <description>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.
 Well&amp;hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly. Actually the FN keys were for MacOS, not Windows.
 How I fixed:
  Use the switch on side of keyboard to change to Windows mode Hold Fn + X + L for 4 seconds to set the key row to Function mode  Type in the terminal:</description>
-			<content type="html"><![CDATA[<p>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.</p>
+            <content type="html"><![CDATA[<p>When I bought a Keychron K2 I knew it would work in Windows and Mac, but I use Linux. But it’s just a keyboard… it should work.</p>
 <p>Well&hellip; It works! But on my OS Arch Linux with Gnome had a little problem. The FN keys didn’t work perfectly.
 Actually the FN keys were for MacOS, not Windows.</p>
 <p>How I fixed:</p>
@@ -210,11 +210,11 @@ Actually the FN keys were for MacOS, not Windows.</p>
 <li>Hold <code>Fn + X + L</code> for 4 seconds to set the key row to <em>Function</em> mode</li>
 </ul>
 <p>Type in the terminal:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#ae81ff">0</span> | sudo tee /sys/module/hid_apple/parameters/fnmode
-</code></pre></div><p>When doing this your keyboard should work perfectly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#ae81ff">0</span> | sudo tee /sys/module/hid_apple/parameters/fnmode
+</span></span></code></pre></div><p>When doing this your keyboard should work perfectly.</p>
 <p>With a small detail: to persist this change you need to add a module option for <code>hid_apple</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;options hid_apple fnmode=0&#34;</span> | sudo tee -a /etc/modprobe.d/hid_apple.conf
-</code></pre></div><h3 id="important"><strong>Important!</strong></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;options hid_apple fnmode=0&#34;</span> | sudo tee -a /etc/modprobe.d/hid_apple.conf
+</span></span></code></pre></div><h3 id="important"><strong>Important!</strong></h3>
 <p>Now you need to rebuild your <code>initramfs</code> if <code>hid_apple</code> module is included.</p>
 <ul>
 <li>Ubuntu: <code>sudo update-initramfs -u</code></li>
@@ -227,20 +227,20 @@ Actually the FN keys were for MacOS, not Windows.</p>
 </strong>
 
 ]]></content>
-		</item>
-		
-		<item>
-			<title>Hello World!</title>
-			<link>https://douglastofoli.dev/en/posts/hello-world/</link>
-			<pubDate>Wed, 26 Jan 2022 22:07:05 -0300</pubDate>
-			
-			<guid>https://douglastofoli.dev/en/posts/hello-world/</guid>
-			<description>Hello, friend. How are you? I&amp;rsquo;m fine and I expect that you are fine too.
+        </item>
+        
+        <item>
+            <title>Hello World!</title>
+            <link>https://douglastofoli.dev/en/posts/hello-world/</link>
+            <pubDate>Wed, 26 Jan 2022 22:07:05 -0300</pubDate>
+            
+            <guid>https://douglastofoli.dev/en/posts/hello-world/</guid>
+            <description>Hello, friend. How are you? I&amp;rsquo;m fine and I expect that you are fine too.
 So&amp;hellip; this is my blog! 🎉🎉🎉
 Yep! You are in it.
 I hope that you will have good moments and nice readings here.
 About what I&amp;rsquo;ll write? Hmmm&amp;hellip; about everything, I think. You can hope to find subjects about technologies, histories from how I learn something. Example: sometimes I have a trouble in my Linux and I search all over the internet to find a solution.</description>
-			<content type="html"><![CDATA[<p>Hello, friend. How are you? I&rsquo;m fine and I expect that you are fine too.</p>
+            <content type="html"><![CDATA[<p>Hello, friend. How are you? I&rsquo;m fine and I expect that you are fine too.</p>
 <p><strong>So&hellip; this is my blog!</strong> 🎉🎉🎉</p>
 <p>Yep! You are in it.</p>
 <p>I hope that you will have good moments and nice readings here.</p>
@@ -248,7 +248,7 @@ About what I&amp;rsquo;ll write? Hmmm&amp;hellip; about everything, I think. You
 Example: sometimes I have a trouble in my Linux and I search all over the internet to find a solution. I want other people find the same solutions but more easily.</p>
 <p>Apresentations made. See my first post about Keychron on Linux. 👉 <a href="/en/posts/keychron-linux/" title="Keychron Linux">Click here to go to the post</a> 👈</p>
 ]]></content>
-		</item>
-		
-	</channel>
+        </item>
+        
+    </channel>
 </rss>
