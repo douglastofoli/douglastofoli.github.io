@@ -23,9 +23,10 @@ Have a great weekend. See you.
 <p>I know I&rsquo;m not posting with a high frequency but I want that all fridays has a music to reflect about the week.</p>
 <p>And serious, I am not in love haha. I am sure that you&rsquo;ll like this music.</p>
 <p>Have a great weekend. See you.</p>
-<div class="youtube" style="text-align: center;">
-  <iframe height="416" width="694" class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
+<div class="youtube-container">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
 </div>
+
 ]]></content>
         </item>
         
@@ -136,9 +137,10 @@ Have a good night and a great weekend! See you monday!
 <p>There are days when we need to stop, open a beer and relax. I recommend that you to do this.</p>
 <p>Enjoy a song that a frien sent me some days ago. I loved and I want to share with you.</p>
 <p>Have a good night and a great weekend! See you monday!</p>
-<div class="youtube" style="text-align: center;">
-  <iframe height="416" width="694" class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
+<div class="youtube-container">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
 </div>
+
 ]]></content>
         </item>
         

@@ -23,9 +23,10 @@ Tenha um ótimo fim de semana. Até mais.
 <p>Eu sei que não estou postando com muita frequência, mas eu quero que todas as sextas-feiras tenha uma música para refletir sobre a semana.</p>
 <p>E sério, eu não estou apaixonado haha. Eu tenho certeza que você vai curtir esta música.</p>
 <p>Tenha um ótimo fim de semana. Até mais.</p>
-<div class="youtube" style="text-align: center;">
-  <iframe height="416" width="694" class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
+<div class="youtube-container">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/450p7goxZqg?autoplay=0" allowfullscreen title="John Legend - All of Me (Official Video)"></iframe>
 </div>
+
 ]]></content>
         </item>
         
@@ -136,9 +137,10 @@ Tenha uma boa noite e um ótimo final de semana! Vejo você na segunda!
 <p>Tem dias que nós precisamos parar, abrir uma cerveja e relaxar. Eu recomendo que você faça isso.</p>
 <p>Aproveite um som que um amigo me enviou uns dias atrás. Eu adorei e quero compartilhar com você.</p>
 <p>Tenha uma boa noite e um ótimo final de semana! Vejo você na segunda!</p>
-<div class="youtube" style="text-align: center;">
-  <iframe height="416" width="694" class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
+<div class="youtube-container">
+  <iframe class="youtube-frame" src="https://www.youtube.com/embed/khdH-heeojU?autoplay=0" allowfullscreen title="Teddy Swims - Let Me Love You (Mario Cover)"></iframe>
 </div>
+
 ]]></content>
         </item>
         
