@@ -6,7 +6,29 @@
     <description>Recent content on Douglas Tofoli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Jan 2023 17:57:02 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 15:15:22 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mechanical March Challenge: Learning Golang with the Help of a Nix Flake</title>
+      <link>https://douglastofoli.dev/posts/exercism-and-the-mechanical-march/</link>
+      <pubDate>Thu, 02 Mar 2023 15:15:22 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/posts/exercism-and-the-mechanical-march/</guid>
+      <description>If you&amp;rsquo;re looking for a way to challenge yourself and improve your programming skills, the Exercism Mechanical March challenge is a great opportunity. This month, I decided to take on the challenge and tackle the Golang track.
+To make the process smoother and more efficient, I prepared a Nix flake that would help me in the development of the exercises. If you&amp;rsquo;re not familiar with Nix, it&amp;rsquo;s a package manager that allows for deterministic builds and is particularly helpful when working with multiple dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Using Nix for Productivity</title>
+      <link>https://douglastofoli.dev/posts/using-nix-for-productivity/</link>
+      <pubDate>Thu, 02 Mar 2023 14:30:10 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/posts/using-nix-for-productivity/</guid>
+      <description>I love automations, and set up environments to development is very stressfull. Since I&amp;rsquo;ve been using Nix I&amp;rsquo;ve been had less work to configure my packages and my configurations.
+And make your environment productivy is really easy. In some steps.
+You need to have the package manager Nix installed on your system. Also need direnv, for integration, that enables automations.
+Install Nix in whatever Linux distribution is simple, just run the installer:</description>
+    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://douglastofoli.dev/about/</link>

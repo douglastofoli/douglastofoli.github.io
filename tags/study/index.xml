@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>study on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/tags/study/</link>
+    <description>Recent content in study on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2023 15:15:22 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mechanical March Challenge: Learning Golang with the Help of a Nix Flake</title>
+      <link>https://douglastofoli.dev/posts/exercism-and-the-mechanical-march/</link>
+      <pubDate>Thu, 02 Mar 2023 15:15:22 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/posts/exercism-and-the-mechanical-march/</guid>
+      <description>If you&amp;rsquo;re looking for a way to challenge yourself and improve your programming skills, the Exercism Mechanical March challenge is a great opportunity. This month, I decided to take on the challenge and tackle the Golang track.
+To make the process smoother and more efficient, I prepared a Nix flake that would help me in the development of the exercises. If you&amp;rsquo;re not familiar with Nix, it&amp;rsquo;s a package manager that allows for deterministic builds and is particularly helpful when working with multiple dependencies.</description>
+    </item>
+    
+  </channel>
+</rss>

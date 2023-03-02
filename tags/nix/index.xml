@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Douglas Tofoli</title>
-    <link>https://douglastofoli.dev/posts/</link>
-    <description>Recent content in Posts on Douglas Tofoli</description>
+    <title>nix on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/tags/nix/</link>
+    <description>Recent content in nix on Douglas Tofoli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2023 15:15:22 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 15:15:22 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/nix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mechanical March Challenge: Learning Golang with the Help of a Nix Flake</title>
       <link>https://douglastofoli.dev/posts/exercism-and-the-mechanical-march/</link>
@@ -27,15 +27,6 @@ To make the process smoother and more efficient, I prepared a Nix flake that wou
 And make your environment productivy is really easy. In some steps.
 You need to have the package manager Nix installed on your system. Also need direnv, for integration, that enables automations.
 Install Nix in whatever Linux distribution is simple, just run the installer:</description>
-    </item>
-    
-    <item>
-      <title>Hello, new blog!</title>
-      <link>https://douglastofoli.dev/posts/hello-new-blog/</link>
-      <pubDate>Mon, 23 Jan 2023 17:57:02 -0300</pubDate>
-      
-      <guid>https://douglastofoli.dev/posts/hello-new-blog/</guid>
-      <description>Happy new year! 🎉</description>
     </item>
     
   </channel>
