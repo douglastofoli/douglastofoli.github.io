@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Jan 2023 17:57:02 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About Me</title>
+      <link>https://douglastofoli.dev/about/</link>
+      <pubDate>Mon, 23 Jan 2023 17:57:02 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/about/</guid>
+      <description>Hello, my name is Douglas, and I am a passionate technology and programming student. Currently, I am studying Software Engineering and have professional experience in languages such as Typescript, PHP, and Elixir.
+My programming journey began a few years ago when I decided to dive into the world of technology and learn how to create solutions for complex problems using code. Since then, I have dedicated myself to improving my skills and staying up to date with the latest trends and news in programming languages, tools, and technologies.</description>
+    </item>
+    
+    <item>
       <title>Hello, new blog!</title>
       <link>https://douglastofoli.dev/posts/hello-new-blog/</link>
       <pubDate>Mon, 23 Jan 2023 17:57:02 -0300</pubDate>
