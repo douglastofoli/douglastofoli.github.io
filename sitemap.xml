@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://douglastofoli.dev/posts/automating-crud-operations-with-macros-in-elixir/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/tags/code/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/tags/crud/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
     <loc>https://douglastofoli.dev/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/tags/elixir/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/tags/macro/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/posts/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/tags/</loc>
+    <lastmod>2023-05-22T18:04:05-03:00</lastmod>
+  </url><url>
+    <loc>https://douglastofoli.dev/tags/dotfile/</loc>
     <lastmod>2023-04-29T11:27:00-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.dev/posts/how-my-xmonad-works/</loc>
     <lastmod>2023-04-29T11:27:00-03:00</lastmod>
   </url><url>
-    <loc>https://douglastofoli.dev/posts/</loc>
+    <loc>https://douglastofoli.dev/tags/xmonad/</loc>
     <lastmod>2023-04-29T11:27:00-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.dev/tags/12in23-challenge/</loc>
@@ -27,9 +51,6 @@
     <lastmod>2023-03-02T15:15:22-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.dev/tags/study/</loc>
-    <lastmod>2023-03-02T15:15:22-03:00</lastmod>
-  </url><url>
-    <loc>https://douglastofoli.dev/tags/</loc>
     <lastmod>2023-03-02T15:15:22-03:00</lastmod>
   </url><url>
     <loc>https://douglastofoli.dev/posts/using-nix-for-productivity/</loc>

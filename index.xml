@@ -6,7 +6,17 @@
     <description>Recent content on Douglas Tofoli</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Apr 2023 11:27:00 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2023 18:04:05 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating CRUD Operations with Macros in Elixir</title>
+      <link>https://douglastofoli.dev/posts/automating-crud-operations-with-macros-in-elixir/</link>
+      <pubDate>Mon, 22 May 2023 18:04:05 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/posts/automating-crud-operations-with-macros-in-elixir/</guid>
+      <description>When dealing with databases and information management systems, it is common to create CRUD (Create, Read, Update, Delete) operations in programming. However, Elixir, a robust and highly concurrent functional programming language, offers a powerful feature that can significantly simplify the process of creating CRUDs. In this article, I will share my experience in creating generalized CRUDs using Elixir macros.
+Understanding Macros In Elixir, macros are special constructs that allow code generation at compile-time.</description>
+    </item>
+    
     <item>
       <title>How My XMonad Works</title>
       <link>https://douglastofoli.dev/posts/how-my-xmonad-works/</link>

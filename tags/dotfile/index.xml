@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dotfile on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/tags/dotfile/</link>
+    <description>Recent content in dotfile on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Apr 2023 11:27:00 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/dotfile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How My XMonad Works</title>
+      <link>https://douglastofoli.dev/posts/how-my-xmonad-works/</link>
+      <pubDate>Sat, 29 Apr 2023 11:27:00 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/posts/how-my-xmonad-works/</guid>
+      <description>XMonad Configuration This is my personal configuration file for XMonad, a tiling window manager for X11. This configuration is highly customized and may not suit your needs out of the box, but you are welcome to use it as a starting point for your own configuration.
+Table of Contents Dependencies Installation Customization Variables Navigation Workspaces Startup Layout Keybindings Dependencies Before you can use this configuration, you will need to install the following dependencies:</description>
+    </item>
+    
+  </channel>
+</rss>

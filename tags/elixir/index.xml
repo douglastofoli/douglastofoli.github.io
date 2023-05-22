@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>elixir on Douglas Tofoli</title>
+    <link>https://douglastofoli.dev/tags/elixir/</link>
+    <description>Recent content in elixir on Douglas Tofoli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2023 18:04:05 -0300</lastBuildDate><atom:link href="https://douglastofoli.dev/tags/elixir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating CRUD Operations with Macros in Elixir</title>
+      <link>https://douglastofoli.dev/posts/automating-crud-operations-with-macros-in-elixir/</link>
+      <pubDate>Mon, 22 May 2023 18:04:05 -0300</pubDate>
+      
+      <guid>https://douglastofoli.dev/posts/automating-crud-operations-with-macros-in-elixir/</guid>
+      <description>When dealing with databases and information management systems, it is common to create CRUD (Create, Read, Update, Delete) operations in programming. However, Elixir, a robust and highly concurrent functional programming language, offers a powerful feature that can significantly simplify the process of creating CRUDs. In this article, I will share my experience in creating generalized CRUDs using Elixir macros.
+Understanding Macros In Elixir, macros are special constructs that allow code generation at compile-time.</description>
+    </item>
+    
+  </channel>
+</rss>
